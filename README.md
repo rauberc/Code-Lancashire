@@ -4,4 +4,3 @@ I am learning HTML, so in this repository you will find the code for my very fir
 
 This is an ongoing work, so more things will be added as I learn :)
 
-this is an update
