@@ -8,3 +8,9 @@ font-size: 64px;
 color: teal;
 
 }
+
+#ht::after {
+content: 'image';
+display: block;
+
+}
