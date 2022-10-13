@@ -9,8 +9,9 @@ color: teal;
 
 }
 
-#ht::after {
-content: 'image';
+.bio::after {
 display: block;
+width: 100px;
+height: 100px;
 
 }
