@@ -7,7 +7,7 @@ padding-left: 100px;
 padding: 100px 100px 100px 100px;
 }
 
-.bio::after {
+.intro::after {
 display: block;
 width: 100px;
 height: 100px;
@@ -49,6 +49,5 @@ textarea {
 }
 
 .bottom-container{
-    background-color: #66BFBF;
-    padding: 50px 0 20px;
+    background-color: #3366cc;
   }
