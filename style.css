@@ -1,7 +1,7 @@
 
 header h1 {
 font-size: 64px;
-color: t;
+color: #dbf7ff;
 
 }
 
@@ -25,4 +25,13 @@ textarea {
 
     padding: 2px;
     border: 2px solid orange;
+}
+
+.navigbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    height: 80px;  
+    font-family: var(--ff-secondary);
 }
