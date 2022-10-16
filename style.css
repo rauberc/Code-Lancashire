@@ -47,3 +47,8 @@ textarea {
 .navigbar li:hover{
     opacity: 0.6;
 }
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+  }
