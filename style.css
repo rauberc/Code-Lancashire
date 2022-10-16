@@ -33,7 +33,7 @@ textarea {
     align-items: center;
     padding-right: 20px;
     height: 80px;  
-    font-family: var(--ff-secondary);
+    font-family: "Roboto";
 }
 
 .navigbar li {
