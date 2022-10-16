@@ -23,8 +23,7 @@ body {
 
 input[type=name],
 input[type=email],
-textarea {
-
+textarea{
     padding: 2px;
     border: 2px solid #3366cc;
 }
