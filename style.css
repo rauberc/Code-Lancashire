@@ -16,6 +16,11 @@ height: 100px;
 
 }
 
+body {
+    background-color: #dbf7ff;
+    font-family: "Roboto", sans-serif;
+}
+
 /* contact.html */
 
 input[type=name],
