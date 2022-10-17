@@ -11,4 +11,4 @@ console.log(addition)
 let firstname = "CODE"
 let surname = "Lancashire"
 
-console.log(firstname + " " + surname)
+console.log(' I think ${firstname} ${surname} is the best!')
