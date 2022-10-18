@@ -8,7 +8,16 @@ let addition = (4+3)
 
 console.log(addition)
 
-let firstname = "CODE"
-let surname = "Lancashire"
+//let firstname = "CODE"
+const birthplace = "Lancashire"
 
-console.log(' I think ${firstname} ${surname} is the best!')
+let sentence = `the best place to be born is ${birthplace}`
+
+console.log(sentence)
+
+let num = "1", num2 = 1
+
+if(num == num2){
+   console.log("Option1")
+}
+  else {console.log("option2")}

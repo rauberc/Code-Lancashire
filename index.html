@@ -1,36 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css"> 
-        <link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico'>
-        <title>Cristine Oliveira</title>
 
-    
-    </head>
-    <body class = "home" id = "body">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristine Oliveira</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico'>
+  </head>
 
-        <header class="name">      
-         <h1> Cristine Oliveira </h1>
+  <body>
 
-        </header>
+      <div id="container-id">
+                <div id="container-menu">
+                      <div class="menu">
+                        <ul>
+                          <li><a href="#container-home">HOME</a></li>
+                          <li><a href="#container-about">ABOUT</a></li>
+                          <li><a href="#container-skills">SKILLS</a></li>
+                          <li><a href="#container-education">EDUCATION</a></li>
+                          <li><a href="#container-projects">PROJECTS</a></li>
+                          <li><a href="#container-contact">CONTACT</a></li>
+                        </ul>
+                     </div>
+                </div>
 
-        <nav class="navigbar">
-            <ul>
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="about-me.html">ABOUT ME</a></li>
-              <li><a href="cv/cv_cristine.pdf">CV</a></li>
-              <li><a href="contact.html">CONTACT ME</a></li>
-            </ul>
-          </nav>
+                <div id="container-home">
+                  <div class="home">
+                    <h1>Cristine Oliveira</h1>
+                    <h2>data scientist</h2>
+                  </div>
 
-        <div class = "intro">
+                  <div class="social-media">
+                    <div  class="linkedin"> 
+                      <a href="https://www.linkedin.com/in/cristineroliveira/" target="_blank">Linkedin</a>
+                    </div>
+                    <div  class="twitter"> 
+                      <a href="https://twitter.com/cristinerauber" target="_blank">Twitter</a>
+                    </div>                       
+                    <div  class="github"> 
+                      <a href="https://github.com/rauberc" target="_blank">GitHub</a>
+                    </div>
+                    <div  class="researchgate"> 
+                      <a href="https://www.researchgate.net/profile/Cristine-Rauber" target="_blank">Research Gate</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="container-about">
+                  <div class="about">
+                    <div class="profile-pic">
+                      <img src="img/cristine.png" />
+                    </div>
+
+                    <div class="about-text">
+                      <h2>About</h2>
+                      <p>
+                      I am a Brazilian data scientist and an enthusiast web developer living in the UK. 
+                      I am currently a third-year PhD candidate in Statistics at Lancaster University.
+                      During my free time I enjoy going for long walks, binge-watching something on Netflix and spending time with my friends.
+                      </p>
+                    </div>
+
+                    <div class="clear"> </div>
+                  </div>
+                </div>
+
+                <div id="container-skills">
+                  <div class="skills">
+                    <div class="title">
+                      <h2>Skills</h2>
+                    </div>
+
+                    <div class="bardiv">
+                      <h3>HTML</h3>
+                      <div class="progressbar">
+                        <span class="html"></span>
+                      </div>
+                      <h3>CSS</h3>
+                      <div class="progressbar">
+                        <span class="css"></span>
+                      </div>
+                      <h3>JavaScript</h3>
+                      <div class="progressbar">
+                        <span class="javascript"></span>
+                      </div>
+                      <h3>SQL</h3>
+                      <div class="progressbar">
+                        <span class="sql"></span>
+                      </div>
+                      <h3>Python</h3>
+                      <div class="progressbar">
+                        <span class="python"></span>
+                      </div>
+                      <h3>R</h3>
+                      <div class="progressbar">
+                        <span class="rstudio"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="container-education">
+                  <div class="education">
+                      <h2>Education</h2>
+
+                      <div class="bootcamp">
+                        <h3>CODE Lancashire Bootcamp (England)</h3>
+                        <h4>2022 - Present</h4>
+                      </div>
+
+                      <div class="third-education">
+                        <h3>PhD in Statistics - Lancaster University (England)</h3>
+                        <h4>2020 - Present</h4>
+                      </div>
+
+                      <div class="second-education">
+                        <h3>MSc in Statistics - Federal University of Pernambuco (Brazil)</h3>
+                        <h4>2018 - 2020</h4>
+                      </div>
+
+                    <div class="first-education">
+                        <h3>BSc in Statistics - Federal University of Santa Maria (Brazil)</h3>
+                        <h4>2011 - 2017</h4>
+                    </div>
+
+                    </div>
+                </div>
+
+
+                <div id="container-projects">
+                  <div class="projects">
+                      <h2>MOST RECENT PROJECT</h2>
+
+                      <div class="project">
+                        <h3>Residual-based CUSUM beta regression control chart for monitoring double-bounded processes</h3>
+                          <h4>This paper proposes a control chart useful for detecting small shifts in the mean of a double-bounded process, 
+                           such as fractions and proportions, in the presence of control variables. For this purpose, we consider the cumulative 
+                           sum (CUSUM) control chart applied to different residuals of the beta regression model. We conduct an extensive Monte 
+                           Carlo simulation study to evaluate and compare the performance of the proposed control chart with two other control 
+                           charts in the literature in terms of run length analysis. The numerical results show that the proposed control chart 
+                           is more sensitive to detect changes in the process than its competitors and that the quantile residual is the most 
+                           suitable residual to be used in our proposal. Finally, based on the quantile residual, we present and discuss applications 
+                           to real and simulated data to show the applicability of the proposed control chart.</h4>
+                          <a title = "Read more" href = "https://onlinelibrary.wiley.com/doi/abs/10.1002/qre.3140" target = "_blank">
+                           Read more
+                           </a>
+                      </div>
+
+                    
+
+
+                    </div>
+                </div>
+
+
+              <div id="container-contact">
+                <div class="contact">
+                  <h2>CONTACT</h2>
+                  <form name="form" method="POST" action="">
+                    <div class="input">
+                      <h3>*Name</h3>
+                      <input type="text" name="name" />
+                    </div>
+                    <div class="input">
+                      <h3>*Email</h3>
+                      <input type="email" name="email" />
+                    </div>
+                    <div class="input">
+                      <h3>*Message</h3>
+                      <textarea name="message"></textarea>
+                    </div>
+                    <div class="input">
+                      <input type="submit" value="Submit">
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+
+        <div id="container-footer">
+          <div class="footer">
+            <small>&copy; Copyright 2022, Cristine Oliveira</small>          
+          </div>
         </div>
 
-        <div class="bottom-container">
-            Copyright (c) 2021; all rights reserved.
-        </div>
-    </body>
+      </div>
+
+  </body>
 </html>
+
