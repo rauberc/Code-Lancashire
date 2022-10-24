@@ -75,28 +75,11 @@ div, p, h1, h2, h3, h4, h5, ul, li, a, span{
   padding:0px 0px 10px 0px;
 }
 
-.typing-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.input-cursor {
-  display: inline-block;
-  width: 2px;
-  height: 42px;
-  background-color: white;
-  margin-left: 8px;
-}
-
-@keyframes blink {
-  0% {opacity: 1;}
-  40% {opacity: 1;}
-  60% {opacity: 0;}
-  100% {opacity: 0;}
-}
-
-.input-cursor { 
-animation: blink .6s linear infinite alternate;
+.home h2{
+  font-weight:100;
+  font-size:30px;
+  color:#DDD;
+  text-transform:uppercase;
 }
 
 .linkedin a{
