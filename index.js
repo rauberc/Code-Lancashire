@@ -1,14 +1,20 @@
-var string = "data scientist"; /* type your text here */
-var array = string.split("");
-var timer;
-
-function frameLooper () {
-	if (array.length > 0) {
-		document.getElementById("typed-text").innerHTML += array.shift();
-	} else {
-		clearTimeout(timer);
-			}
-	loopTimer = setTimeout('frameLooper()',70); /* change 70 for speed */
-
+console.clear();
+function typingEffect(element,speed){
+  let text=element.innerHTML;
+  element.innerHTML="";
+ var i=0;
+  var timer=setInterval(function(){
+    if(i<text.length){
+      element.append(text.charAt(i))
+      i++;
+    }else{
+      clearInterval(timer);
+    }
+  },speed)
+  
 }
-frameLooper();
+
+
+
+const h1=document.querySelector('h1');
+typingEffect(h1,150);
