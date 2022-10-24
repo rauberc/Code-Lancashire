@@ -16,5 +16,5 @@ function typingEffect(element,speed){
 
 
 
-const h1=document.querySelector('h1');
-typingEffect(h1,150);
+const h2=document.querySelector('h2');
+typingEffect(h2,150);
