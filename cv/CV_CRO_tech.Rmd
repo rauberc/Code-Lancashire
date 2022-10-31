@@ -1,0 +1,270 @@
+---
+title: "Cristine Rauber Oliveira"
+author: Cristine Rauber Oliveira
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    css: 
+      - override.css
+      - resume
+    self_contained: true
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+
+Aside
+================================================================================
+
+![logo](code10.png){width=90%}
+
+<!--- ![Lijia Yu](https://avatars1.githubusercontent.com/u/895125?s=400&v=4){width=80%}  --->
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> rauberoliveira@gmail.com
+- <i class="fa fa-github"></i> [rauberc](https://github.com/rauberc)
+- <i class="fa fa-linkedin"></i> [cristineroliveira](https://www.linkedin.com/in/cristineroliveira/)
+- <i class="fa fa-twitter"></i> [cristinerauber](https://twitter.com/cristinerauber)
+- <i class="fa fa-book-open"></i> [Research Gate](https://www.researchgate.net/profile/Cristine-Rauber)
+- <i class="fa fa-map-marker"></i> Lancaster, UK
+
+Soft skills {#skills}
+--------------------------------------------------------------------------------
+
+- Communication, presentation, project management, critical thinking, proactivity, collaboration.
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+Technical skills {#skills}
+--------------------------------------------------------------------------------
+
+- Advanced R, intermediate Python and SQL, basic JavaScript, HTML, and CSS.
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+Languages {#skills}
+--------------------------------------------------------------------------------
+
+- English (US and UK) and Portuguese (BR).
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+
+<!--/*Last updated on `r format(Sys.time(), '%b %d, %Y')`.*/-->
+
+<!-- /* Define the link colour here */ -->
+<!-- a { -->
+<!-- color: #546666; -->
+<!-- color: #6BA5C2; -->
+
+<!-- } -->
+
+Main
+================================================================================
+
+Cristine Rauber Oliveira {#title}
+--------------------------------------------------------------------------------
+
+A web developer with a proven ability to adapt in both self-starting and collaborative environments. Experienced in preparing detailed documents and reports while managing complex data analysis and coding responsibilities. Eager to obtain a challenging position that will expand my learning and build upon my developer skills.
+ 
+::: concise
+- Programming
+- Data analysis and visualisation
+- Web development
+- Machine learning
+:::
+
+
+<!--- A hardworking, ambitious, and proactive person who is also passionate about data and statistics. Currently seeking a challenging job role in data science to jumpstart my career in industry, gain hands on experience and become a valuable asset to the organisation I work for. --->
+
+
+
+<!--- Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### Graduate Teaching Assistant
+
+Lancaster University
+
+Lancaster, United Kingdom
+
+2021 - 2023
+
+- Performed computational biology research towards understanding regulation of alternative splicing in human and mouse transcriptome.
+- Found EGFR pathway related mutations, aimed to understand the impacts of cancer mutations on EGFR signaling pathway.
+
+### Bioinformatican
+
+My Health Gene Technology Co., Ltd.
+
+Beijing, China
+
+2015 - 2016
+
+- Investigated how cancer cells spread to other parts of the body at the single cell level.
+
+### Visiting Scientist
+
+University of Alabama at Birmingham
+
+AL, USA
+
+2016 - 2018
+
+- Investigated the role of mitochondria in development of cancer.
+- Investigated the evolution of genome architecture and its role in important evolutionary events.
+- Detected thrombotic thrombocytopenic purpura related mutations in mutiple patients' blood genome. --->
+  
+  
+Work Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+### Applied Researcher
+
+Lancaster University
+
+Lancaster, UK
+
+Oct 2020 - present
+
+::: concise
+- Conducted applied research, data analysis and data visualisation on space weather extremes
+- Explored and investigated the pairwise and spatial extremal dependence structure of geomagnetic field fluctuations
+- Analytical tools used include the R Software (tidyverse, ggplot2, dplyr)
+:::
+
+### Graduate Teaching Assistant
+Lancaster University
+
+Lancaster, UK
+
+Jan 2021 - present
+
+::: concise
+- Enhanced student engagement on several undergraduate and graduate modules in Statistics.
+:::
+
+### MSc Reseacher 
+
+Federal University of Pernambuco 
+
+Recife, BR
+
+Mar 2018 - Feb 2020
+
+::: concise
+- Conducted innovative research to improve testing inference on flexible regression models
+- Applied the proposed methods to real-world data to showcase the usefulness of the work 
+- Analytical tools used include the R Software and Ox
+:::
+
+### Data Analyst 
+BRAIN – Corporate Intelligence Bureau
+
+Curitiba, BR
+
+Jan 2017 - Dec 2017
+
+::: concise
+- Performed several data veracity checks to ensure the quality of the results
+- Configured both written and graphical reports
+- Surveyed potential audience for applicability of new products
+- Conducted data visualisation to represent the intended measurements
+- Utilised analytical tools, including Microsoft Excel and PowerPoint
+:::
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+### Lancaster University
+
+PhD in Statistics
+
+Lancaster, UK
+
+Oct 2020 - present
+
+<!--- Thesis: Statistical modelling of space weather extremes --->
+
+<space>
+
+### Federal University of Pernambuco
+
+MSc in Statistics (Distinction)
+
+Pernambuco, BR
+
+Mar 2018 - Fev 2020
+
+<!--- Thesis: Improved testing inferences for beta regressions with parametric mean link function --->
+<space>
+
+### Federal University of Santa Maria
+
+BSc in Statistics (First-Class Honours)
+
+Santa Maria, BR
+
+Aug 2011 - Dec 2017
+
+<!--- Thesis: Kumaraswamy regression model with Aranda-Ordaz link function --->
+
+
+<!---Statistical Projects {data-icon=file}
+--------------------------------------------------------------------------------
+ 
+### [A new control chart for monitoring double bounded processes](https://onlinelibrary.wiley.com/doi/abs/10.1002/qre.3140)
+
+Qual Reliab Engng Int.
+
+N/A
+
+2022
+
+**Rauber C.**, Lima-Filho L. M. A., Bayer F. M.
+
+### [Modified likelihood ratio test statistics for flexible beta regressions](https://link.springer.com/article/10.1007%2Fs10182-020-00376-3)
+
+AStA Adv Stat Anal 104, 687–717 
+
+N/A
+
+2020
+
+**Rauber C.**, Cribari-Neto F., Bayer F. M.
+
+
+### [A new flexible regression approach to model the target median in the unit interval](https://link.springer.com/article/10.1007/s11749-020-00700-8)
+
+TEST 29, 1051–1071 
+
+N/A
+
+2020
+
+Pumi. G., **Rauber C.**, Bayer F. M. --->
+
+
+<!--- Volunteering Experience {data-icon=hand-holding-heart} 
+--------------------------------------------------------------------------------
+
+### [Covid Vaccination Marshal](https://lancsvp.org.uk/about-lvp/)
+
+Helped with safe patient navigation of the site
+
+Lancaster, UK
+
+<space>
+
+### [50|50 MSLE Foundation](https://www.mlsefoundation.org/50-50)
+
+Helped selling raffle tickets
+
+Toronto, CA --->
+
+
