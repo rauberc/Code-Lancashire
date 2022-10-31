@@ -1,0 +1,66 @@
+* {
+  /* Override default margins*/
+  --pagedjs-margin-right: 0.2in;
+  --pagedjs-margin-left: 0.2in;
+  --pagedjs-margin-top: 0.2in;
+  --pagedjs-margin-bottom: 0.2in;
+}
+
+
+:root{
+  --sidebar-width: 14rem; /* side bar width */
+  --sidebar-background-color: #dbf7ff;
+  --decorator-border: 2px solid #dbf7ff; /* change color and thickness of timeline */
+
+}
+
+.decorator::after{
+  background-color: #3366cc; /* change color timeline dots */
+
+}
+
+
+/* Define the font family here */
+body{
+  font-family: "Roboto", sans-serif;
+
+}
+
+/* Define the link colour here */
+a {
+  color: #6BA5C2;
+  padding:3px;
+
+}
+
+a:hover{
+  text-decoration:none;
+  color:white;
+  background-color:#3366cc;
+  transition:0.4s;
+}
+
+@page{
+  background: linear-gradient(to right, var(--sidebar-background-color), var(--sidebar-background-color) var(--sidebar-background-width), white var(--sidebar-background-width));
+}
+
+#main{
+  width: var(--main-width);
+  padding: 0 0.25in 0 0.25in;
+  font-size: 0.7rem;
+  float: right;
+}
+
+#aside{
+  position: relative; /* for disclaimer */
+  height: var(--content-area-height);
+}
+
+.aside{
+  width: var(--sidebar-width);
+  padding: 0.6in var(--sidebar-horizontal-padding);
+  font-size: 0.8rem;
+  float: left;
+  position: absolute;
+  left: 0;
+}
